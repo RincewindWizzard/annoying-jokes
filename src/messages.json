@@ -1,0 +1,72 @@
+{
+  "interval": {
+    "start": 3600,
+    "repeat_every": 18000,
+    "std_dev": 1800
+  },
+  "app_ids": [
+    "Microsoft.InternetExplorer.Default",
+    "Microsoft.SkyDrive.Desktop",
+    "Microsoft.Windows.AdministrativeTools",
+    "Microsoft.Windows.Computer",
+    "Microsoft.Windows.ControlPanel",
+    "Microsoft.Windows.Explorer",
+    "Microsoft.Windows.MediaPlayer32",
+    "Microsoft.Windows.RemoteDesktop",
+    "Microsoft.Windows.Shell.RunDialog",
+    "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\MdSched.exe",
+    "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\WF.msc",
+    "{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}\\WFS.exe",
+    "Shared\\Ink\\mip.exe",
+    "Kit\\appcertui.exe",
+    "Microsoft.549981C3F5F10_8wekyb3d8bbwe!App",
+    "Microsoft.Windows.SecHealthUI_cw5n1h2txyewy!SecHealthUI",
+    "MicrosoftWindows.Client.CBS_cw5n1h2txyewy!WindowsBackup"
+  ],
+  "messages": [
+    {
+      "title": "Chevron falsch ausgerichtet!",
+      "content": "Das Stargate muss rekalibriert werden."
+    },
+    {
+      "title": "Fluxkompensatorüberlastung!",
+      "content": "Zurück in die Zukunft 404: Die Zeit wurde temporär deaktiviert."
+    },
+    {
+      "title": "Warpgondeln überhitzt!",
+      "content": "Es wird empfohlen, den PC auf Warp 1 herunterzustufen, um eine Kollision mit dem Borg-Kollektiv zu vermeiden."
+    },
+    {
+      "title": "Transdimensionales Datenleck!",
+      "content": "Ein Wurmloch hat vertrauliche Daten in eine alternative Realität verschoben."
+    },
+    {
+      "title": "Deflektorfeld offline!",
+      "content": "Vorsicht vor Mikrometeoriten und außerirdischen Katzen."
+    },
+    {
+      "title": "Holodeck-Fehlfunktion!",
+      "content": "Das nächste Mal, wenn Sie den PC starten, könnten Sie in einem 16-Bit-Abenteuer gefangen sein."
+    },
+    {
+      "title": "Positronischer Emotionschip überlastet!",
+      "content": "Der PC hat versucht, Humor zu verarbeiten. Bitte warten Sie, während wir ihn wieder in den ernsthaften Modus versetzen."
+    },
+    {
+      "title": "Kobayashi-Maru-Szenario erkannt!",
+      "content": "Alle Systeme sind fiktiven Bedrohungen ausgesetzt. Ein Neustart ist sinnlos."
+    },
+    {
+      "title": "Hydraulikdämpfer ausgefallen!",
+      "content": "Das Betreten des Holodecks könnte zu einem unerwarteten Ausflug in die Tiefen des Meeres führen."
+    },
+    {
+      "title": "Antimaterie-Container beschädigt!",
+      "content": "Eine kleine Menge an Antimaterie ist entwichen und hat einen tanzenden Subraum-Regenbogen erzeugt."
+    },
+    {
+      "title": "Dehydriertes Wasserleck!",
+      "content": "Bitte füllen Sie den Wasserkühler mit entwässertem Wasser auf, um eine Überhitzung zu verhindern."
+    }
+  ]
+}
