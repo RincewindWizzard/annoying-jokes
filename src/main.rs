@@ -1,6 +1,7 @@
 extern crate winrt_notification;
 
 use std::{env, thread};
+use std::path::Path;
 use std::time::Duration;
 use log::debug;
 use rand::seq::SliceRandom;
@@ -30,20 +31,21 @@ struct Interval {
     std_dev: u64,
 }
 
-fn main() {
-    let args: Vec<String> = env::args().collect();
+const DEBUG_FLAG_FILE: &str = "C:\\annoying_jokes.flag";
 
+fn main() {
     stderrlog::new()
         .module(module_path!())
         .verbosity(LogLevelNum::Debug)
         .timestamp(stderrlog::Timestamp::Millisecond)
         .init().unwrap();
 
+
     const JSON_STRING: &str = include_str!("messages.json");
     let mut config: Config = serde_json::from_str(JSON_STRING).expect("Failed to load config");
 
     // Debug mode with faster intervals
-    if args[1] == "-t" {
+    if is_fast_debug_mode() {
         config.interval.start = 0;
         config.interval.repeat_every = 5;
         config.interval.std_dev = 1;
@@ -63,6 +65,13 @@ fn main() {
         }
         pause_interval(config.interval.repeat_every, config.interval.std_dev);
     }
+}
+
+fn is_fast_debug_mode() -> bool {
+    let args: Vec<String> = env::args().collect();
+    let debug_file_exists = Path::new(DEBUG_FLAG_FILE).exists();
+    let debug_args_flag = args.len() >= 2 && args[1] == "-t";
+    debug_args_flag || debug_file_exists
 }
 
 fn pause_interval(mean: u64, std_dev: u64) {
