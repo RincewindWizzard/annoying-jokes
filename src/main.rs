@@ -1,4 +1,6 @@
+#![windows_subsystem = "windows"]
 extern crate winrt_notification;
+
 
 use std::{env, thread};
 use std::path::Path;
