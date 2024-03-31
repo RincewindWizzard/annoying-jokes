@@ -67,6 +67,54 @@
     {
       "title": "Dehydriertes Wasserleck!",
       "content": "Bitte füllen Sie den Wasserkühler mit entwässertem Wasser auf, um eine Überhitzung zu verhindern."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Warnung: Das Weeping Angel-Programm wurde aktiviert. Bewegen Sie sich nicht vom Bildschirm weg, sonst könnte Ihr Computer für alle Ewigkeit eingefroren bleiben!"
+    },
+    {
+      "title": "Warnung!",
+      "content": "Vorsicht! Dieser Computer verfügt über eine TARDIS-Simulation. Halten Sie sich von den Zeitreise-Optionen fern, es sei denn, Sie sind bereit, in einem Zeitschleifen-Paradox gefangen zu sein."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Achtung vor der Ferengi-Phishing-Attacke! Seien Sie misstrauisch gegenüber verdächtigen E-Mails, die Ihnen sagen, dass Sie ein Vermögen gewonnen haben - es könnte eine Falle sein, um Ihre Daten zu stehlen."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Warnung: Der Tribble-Filter ist offline. Stellen Sie sicher, dass Sie keine Nahrungsreste in der Nähe des Computers lassen, es sei denn, Sie möchten, dass er von flauschigen Kugeln überwuchert wird."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Vorsicht! Der Joker-Virus wurde im System entdeckt. Halten Sie sich von verdächtigen Lachgeräuschen und grinsenden Pop-up-Fenstern fern, um eine chaotische Systemübernahme zu vermeiden."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Vorsicht! Das Teenage Mutant Ninja Turtle-Theme könnte zu unerwarteten Pizza-Bestellungen führen. Halten Sie Ihren Geldbeutel bereit, um die Folgen einer plötzlichen Pizza-Party zu tragen."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Warnung: Das Luna-Programm ist nicht für die Kommunikation mit außerirdischen Mondkatzen ausgelegt. Vermeiden Sie es, den Computer nach Ihrer nächsten Mission als Sailor Scout zu fragen."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Achtung! Das Candace-Beschwerdeprogramm läuft im Hintergrund. Stellen Sie sicher, dass Ihr Computer nicht versehentlich Ihre unerledigten Aufgaben an Ihre Mutter meldet!"
+    },
+    {
+      "title": "Warnung!",
+      "content": "Warnung: Das Perry-Platypus-Disguise-Widget ist fehlerhaft. Vermeiden Sie es, Ihren Computer in eine geheime Agenten-Identität zu verwandeln, es sei denn, Sie möchten, dass er heimlich durch die Lüftungsschächte schleicht."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Achtung! Das Doofenschmirtzinator-Self-Destruct-Programm ist aktiviert. Halten Sie sich von roten Knöpfen fern, es sei denn, Sie möchten, dass Ihr Computer in einer Wolke von Glitter und Konfetti explodiert!"
+    },
+    {
+      "title": "Warnung!",
+      "content": "Achtung, Ahoi! Dein PC hat mehr Tabs offen als die Anzahl der Krabbenburger, die SpongeBob an einem Tag isst. Vielleicht solltest du ein paar davon schließen, um die Leistung zu verbessern."
+    },
+    {
+      "title": "Warnung!",
+      "content": "Ihr, Rechner wurde kompromittiert, bitte steigen sie in das unsichtbare Datenleck-Mobil und rufen sie mit dem Muscheltelefon nach Meerjungfraumann und Blaubarschbube"
     }
   ]
 }
